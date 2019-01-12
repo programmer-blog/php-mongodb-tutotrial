@@ -13,4 +13,4 @@ Following tasks ar performed in this tutorial.
 
     5. Insert, update, delete records from mongodb database using php
 
-Read full tutorial at: programmerblog.net/php-mongodb-tutorial/
+Read full tutorial at: http://programmerblog.net/php-mongodb-tutorial/
