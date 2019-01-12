@@ -1,0 +1,33 @@
+use onlinestore;
+
+db.createCollection("products")
+
+db.products.insert([{ "_id" : ObjectId("5899b8369ba2868af6d141d5"), "product_name" : "Apple IPhone 6", "price" : "$630", "category" : "Mobile Phone" },
+{ "_id" : ObjectId("5899b8369ba2868af6d141d6"), "product_name" : "Sony Vio", "price" : "$1200", "category" : "Laptop" } ,
+ { "_id" : ObjectId("5899b8369ba2868af6d141d7"), "product_name" : "Samsung T.V", "price" : "$900", "category" : "Electronics" } ,
+{ "_id" : ObjectId("5899b8369ba2868af6d141d8"), "product_name" : "Apple IPAD", "price" : "$400", "category" : "Tablet" } ,
+{ "_id" : ObjectId("5899b8369ba2868af6d141d9"), "product_name" : "MacBook Pro", "price" : "$800", "category" : "Laptop" } ,
+{ "_id" : ObjectId("5899b8369ba2868af6d141da"), "product_name" : "Dell Laptop", "price" : "$620", "category" : "Laptop" } ,
+{ "_id" : ObjectId("5899b8369ba2868af6d141db"), "product_name" : "Canon EOS 700D DSLR Camera", "price" : "$400", "category" : "Camera" }, 
+{ "_id" : ObjectId("5899b8369ba2868af6d141dc"), "product_name" : "Nikon D7100 DSLR Camera ", "price" : "$440", "category" : "Camera" } ,
+{ "_id" : ObjectId("5899b8369ba2868af6d141de"), "product_name" : "HTC Phone", "price" : "$200", "category" : "Mobile Phone" } ,
+{ "_id" : ObjectId("5899b8369ba2868af6d141df"), "product_name" : "LG Monitor", "price" : "$500", "category" : "Electronics" } ,
+{ "_id" : ObjectId("5899b8369ba2868af6d141e0"), "product_name" : "Samsung Printer", "price" : "$320", "category" : "Electronics" } ,
+{ "_id" : ObjectId("5899b8369ba2868af6d141e1"), "product_name" : "Samsung Gear Live Black - Made for Android", "price" : "$250", "category" : "Watch" }]);
+
+
+> db.products.find();
+{ "_id" : ObjectId("5899b8369ba2868af6d141d5"), "product_name" : "Apple IPhone 6", "price" : "$630", "category" : "Mobile Phone" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141d6"), "product_name" : "Sony Vio", "price" : "$1200", "category" : "Laptop" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141d7"), "product_name" : "Samsung T.V", "price" : "$900", "category" : "Electronics" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141d8"), "product_name" : "Apple IPAD", "price" : "$400", "category" : "Tablet" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141d9"), "product_name" : "MacBook Pro", "price" : "$800", "category" : "Laptop" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141da"), "product_name" : "Dell Laptop", "price" : "$620", "category" : "Laptop" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141db"), "product_name" : "Canon EOS 700D DSLR Camera", "price" : "$400", "category" : "Camera" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141dc"), "product_name" : "Nikon D7100 DSLR Camera ", "price" : "$440", "category" : "Camera" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141de"), "product_name" : "HTC Phone", "price" : "$200", "category" : "Mobile Phone" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141df"), "product_name" : "LG Monitor", "price" : "$500", "category" : "Electronics" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141e0"), "product_name" : "Samsung Printer", "price" : "$320", "category" : "Electronics" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141e1"), "product_name" : "Samsung Gear Live Black - Made for Android", "price" : "$250", "category" : "Watch" }
+{ "_id" : ObjectId("5899b8369ba2868af6d141e2"), "product_name" : "Apple Watch", "price" : "$380", "category" : "Watch" }
+{ "_id" : ObjectId("58a5ad61af58191cd8000779"), "product_name" : " LG V20 Mobile", "price" : "180", "category" : "Mobile Phone" }
